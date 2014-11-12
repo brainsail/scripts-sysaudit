@@ -6,6 +6,8 @@ Goals:
 -- Write portable UNIX based audit scripts. We assume you are running more that one flavor of UNIX.
 -- Scripts will be setup to run against a list of hostnames or IP addresses, and assume you have key based access to those systems, to remotely execute commands, or push/pull data.
 
+WARNING:  Although these scripts are written to "Do No Harm" and are passively collecting data, It is your responsiblity and duty as a Systems Admin to review and modify any code to run on your particular systems within your company guidelines. Use at your own risk, I assume no responsibility for damages or issues that may arise from the use of these scripts on your systems.  BE SMART, TEST IN DEVELOPENT FIRST to see if you get the desired results.
+
 This is a collection of scripts that I have written for the purposes of gathering system information.
 
 These could be used for the purposes of collecting information on a new set of systems you would like to administer, or are becoming familiar with.
